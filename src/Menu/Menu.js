@@ -8,7 +8,7 @@ export default class Menu extends Component {
             <nav>
                 <ul>
                     <MenuItem>
-                    <a className= "link" href="#">
+                    <a className= "link" href="/">
                     {this.props.children}         
                     </a>   
                     </MenuItem>
