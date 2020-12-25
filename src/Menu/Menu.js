@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MenuItem from './MenuItem/MenuItem'
 
 
 export default class Menu extends Component {
@@ -6,8 +7,11 @@ export default class Menu extends Component {
         return (
             <nav>
                 <ul>
-                    {this.props.children}            
-
+                    <MenuItem>
+                    <a className= "link" href="#">
+                    {this.props.children}         
+                    </a>   
+                    </MenuItem>
                 </ul>
 
             </nav>
