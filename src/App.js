@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Menu>
         <MenuItem route="/">Home</MenuItem>
-        <MenuItem route="/about">about</MenuItem>
+        <MenuItem route="/about">About</MenuItem>
       </Menu>
 
       <hr />

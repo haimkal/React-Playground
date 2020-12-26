@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MenuItem from './MenuItem/MenuItem'
-
+import './Menu.css'
 
 export default class Menu extends Component {
     render() {
@@ -8,9 +8,7 @@ export default class Menu extends Component {
             <nav>
                 <ul>
                     <MenuItem>
-                    <a className= "link" href="/">
                     {this.props.children}         
-                    </a>   
                     </MenuItem>
                 </ul>
 
